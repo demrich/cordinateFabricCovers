@@ -2,14 +2,17 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Cordinate Fabric Cord Covers</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./stylesheets/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+
+    
 </head>
 
 <body>
@@ -27,21 +30,29 @@
             </div>
         </nav>
     </header>
-
+<div id="hero">
     <div class="jumbotron">
-        <h1 class="display-3">Jumbo heading</h1>
-        <p class="lead">Jumbo helper text</p>
-        <hr class="my-2">
-        <p>More info</p>
+        <div class="container">
+        <h1>Fabric <br> Cord Cover</h1>
+
+        <p class="lead">Hide and manage cables &hellip; anywhere!</p>
+        <ul>
+            <li class="first">&bull; Lamps</li>
+            <li>&bull; Electronics</li>
+            <li>&bull; Chandeliers</li>
+            <li class="last">&bull; Charging Cables and more!</li>
+        </ul>
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+            <a class="btn btn-primary" href="Jumbo action link" role="button">Shop Now</a> <a class="btn btn-primary" href="Jumbo action link" role="button">Learn More</a>
         </p>
+        </div>
     </div>
+</div>
     <hr>
     <div class="container">
         <div id="colors">
             <div class="row">
-                <div class="col-md-8 offset-md-3">
+                <div class="col-md-8 offset-md-2">
                     <img src='https://dummyimage.com/500.gif' alt='' />
                 </div>
             </div>
@@ -65,31 +76,47 @@
                         </li>
                     </ul><br>
                     <h1>Available in 5 Colors</h1>
-                    <button class="btn btn-default">Shop Now</button>
+                    <a class="btn btn-primary">Shop Now</a>
                 </div>
             </div>
         </div>
     </div>
 
+<div id="lineup">
         <div class="jumbotron">
-            <hr class="my-2">
-            <p>More info</p>
-            <p class="lead">
-                <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
-            </p>
+
         </div>
-    </div>
+        <div class="bottom">
+                <p>Great for Cable Management</p>
+                </div>
+</div>
+
+<div id="conclusion">
     <div class="container">
     <div class="col-md-8 offset-md-2">
     <p>
-Et incididunt eu eiusmod reprehenderit veniam in dolor in. Consequat tempor fugiat excepteur tempor mollit irure mollit consectetur exercitation deserunt ea magna duis velit. Mollit aliquip eu reprehenderit Lorem elit.
+        Et incididunt eu eiusmod reprehenderit veniam in dolor in. Consequat tempor fugiat excepteur tempor mollit irure mollit consectetur exercitation deserunt ea magna duis velit. Mollit aliquip eu reprehenderit Lorem elit.
     </p>
-    <button class="btn btn-large">Shop Now</button>
+    <a class="btn btn-lrg">Shop Now</a>
     </div>
     </div>
-    <footer>
+</div>
 
+    <footer>
+        <!-- Contact Section -->
+        <div class="container">
+          <div class="col-md-8 offset-md-2">
+              <h3>Follow us</h3>
+              <a href="http://bit.ly/2lSMnU4" target=_blank><i class="fa fa-facebook"></i></a>
+                <a href="http://bit.ly/2m9jghN" target=_blank><i class="fa fa-twitter"></i></a>
+                <a href="http://bit.ly/2lSZggN" Target=_blank><i class="fa fa-instagram"></i></a>
+                <a href="http://bit.ly/2mpzKTr" target=_blank><i class="fa fa-linkedin"></i></a>
+                <a href="http://bit.ly/2mH7AiW" target=_blank><i class="fa fa-youtube"></i></a>
+            </div>
+            <p>Copyright &copy; 1999-2018 Jasco Products Company. All rights reserved. </p>
+        </div>
     </footer>
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
