@@ -1,0 +1,14 @@
+
+
+
+nav {
+    background: black;
+
+    .menu {
+        display: block;
+        color: white;
+        list-style: none;
+        float: right;
+        @extend nav;
+    }
+}

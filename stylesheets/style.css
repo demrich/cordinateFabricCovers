@@ -1,0 +1,11 @@
+/* line 4, ../sass/style.scss */
+nav, nav .menu {
+  background: black;
+}
+/* line 7, ../sass/style.scss */
+nav .menu {
+  display: block;
+  color: white;
+  list-style: none;
+  float: right;
+}
