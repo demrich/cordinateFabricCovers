@@ -1,5 +1,11 @@
 @import 'reset';
 
+@keyframes fadeOut {
+    0% {opacity: .5;}
+    100% {opacity: 1;}
+}
+
+
 $h1: 72px;
 
 body {
@@ -18,10 +24,10 @@ body {
 
     .btn-lrg {
         @extend .btn-primary;
-        font-size: 50px;
+        font-size: 1.5em;
         letter-spacing: 4px;
         margin-bottom: 40px;
-        padding:5px 40px;
+        padding:5px 20px;
 
     }
 
@@ -39,7 +45,11 @@ nav {
         display:block;
         float: left;
         color: white;
-        padding-top: 65px; 
+        padding-top: 15px; 
+
+        img {
+            width: 150px;
+        }
   
     } 
 
@@ -94,6 +104,7 @@ nav {
 
 #colors {
     text-align: center;
+    position: relative;
 
         ul{
             text-align: center;
@@ -109,12 +120,69 @@ nav {
 
         }
 
+        .image-box{
+            border-radius: 250px;
+            border: #000 4px solid;
+            overflow: hidden;
+            max-width: 450px;
+            position:relative;
+            left: 18%;
+
+            .fade-in{
+                -webkit-animation: fadeOut 1s ease-in;
+                animation: fadeOut 1s ease-in;
+            }
+ 
+            
+        
+        }
+
+        @media screen and (max-width:1000px) {
+            .image-box {
+                left: 0%;
+            }
+
+        }
+    
+
+    
+
         .btn-primary {
             margin-top: 20px;
             margin-bottom:40px;
         }
 
+        .hover{
+           
+                display: inline-block;
+                min-width:15vh ;
+                height: 15vh;
+                border-radius: 80px;
+                cursor: pointer;
+
+                &.one {
+                    background: url('../img/eggshell-white.png');
+                }
+
+                &.two {
+                    background: url('../img/mocha.png');
+                }
+
+                &.three {
+                    background: url('../img/heather-grey.png');
+                }
+                &.four {
+                    background: url('../img/champagne.png');
+
+                }
+                &.five {
+                    background: url('../img/black.png');
+                }
+            
+        }
+
 }
+
 
 
 
