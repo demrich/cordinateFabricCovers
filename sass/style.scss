@@ -1,10 +1,19 @@
 //imports
 @import 'reset';
 
+
+
 //animations
 @keyframes fadeIn {
     0% {opacity: .5;}
     100% {opacity: 1;}
+}
+
+@mixin transitionfix() {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0)
 }
 
 //Variables
@@ -88,7 +97,7 @@ hr {
 #hero {
 
     .jumbotron {
-        background: url('../img/cordinate-hero.jpg') no-repeat;
+        background: url('../img/cordinate-hero.jpg') no-repeat right center;
         background-size: cover;
         min-height: 493px;
 
@@ -152,10 +161,13 @@ hr {
             max-width: 450px;
             position:relative;
             left: 18%;
+            @include transitionfix();
 
             .fade-in{
                 -webkit-animation: fadeIn .25s ease-in;
                 animation: fadeIn .25s ease-in;
+                overflow: hidden;
+                
             }
  
             
