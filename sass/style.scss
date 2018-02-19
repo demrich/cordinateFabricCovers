@@ -1,17 +1,30 @@
+//imports
 @import 'reset';
 
-@keyframes fadeOut {
+//animations
+@keyframes fadeIn {
     0% {opacity: .5;}
     100% {opacity: 1;}
 }
 
-
+//Variables
 $h1: 72px;
+$turquoise: #6db3a3;
 
+//Extends
+.fade-in{
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+//Start Styling
 body {
     letter-spacing: 1px;
 
-
+    .btn-primary:hover {
+        background: $turquoise;
+        color: white;
+    }
 
     .btn-primary {
         border-radius: 50px;
@@ -33,6 +46,10 @@ body {
 
     a:not([href]):not([tabindex]) {
         color: white;
+
+        &:hover {
+            color: white;
+        }
     }
     
 }
@@ -64,10 +81,16 @@ nav {
         }  
     }
 }
+hr {
+        border-top: 10px double #000;
+}
 
 #hero {
 
     .jumbotron {
+        background: url('../img/cordinate-hero.jpg') no-repeat;
+        background-size: cover;
+        min-height: 493px;
 
         h1 {
             font-size: $h1;
@@ -78,6 +101,8 @@ nav {
             padding: 0;
             font-size: 35px;
         }
+
+
 
     ul {
         padding: 0;
@@ -129,8 +154,8 @@ nav {
             left: 18%;
 
             .fade-in{
-                -webkit-animation: fadeOut 1s ease-in;
-                animation: fadeOut 1s ease-in;
+                -webkit-animation: fadeIn .25s ease-in;
+                animation: fadeIn .25s ease-in;
             }
  
             
@@ -152,8 +177,8 @@ nav {
             margin-bottom:40px;
         }
 
+    .color {
         .hover{
-           
                 display: inline-block;
                 min-width:15vh ;
                 height: 15vh;
@@ -162,6 +187,7 @@ nav {
 
                 &.one {
                     background: url('../img/eggshell-white.png');
+
                 }
 
                 &.two {
@@ -178,12 +204,57 @@ nav {
                 &.five {
                     background: url('../img/black.png');
                 }
-            
         }
+
+        .color-name {
+            visibility: hidden;
+
+        }
+        
+        &.one:hover {
+            .color-name {
+                visibility: visible;
+                @extend .fade-in ;
+             }
+        }
+
+        &.two:hover {
+            .color-name {
+                visibility: visible;
+                @extend .fade-in ;
+             }
+        }
+
+        &.three:hover {
+            .color-name {
+                visibility: visible;
+                @extend .fade-in ;
+             }
+        }
+
+        &.four:hover {
+            .color-name {
+                visibility: visible;
+                @extend .fade-in ;
+             }
+        }
+
+        &.five:hover {
+            .color-name {
+                visibility: visible;
+                @extend .fade-in ;
+             }
+        }
+    
+
+    }
+
+
 
 }
 
 
+ 
 
 
 #lineup {
@@ -191,6 +262,9 @@ nav {
 
     .jumbotron {
         margin-bottom:0;
+        background: url('../img/cordinate-lineup.jpg');
+        background-size: cover;
+        min-height:335px;
     }
 
         .bottom{
@@ -226,5 +300,9 @@ footer {
         color: black;
         padding-top: 20px;
         padding-bottom: 20px;
+
+        &:hover {
+            color:$turquoise;
+        }
     }
 }

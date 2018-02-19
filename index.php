@@ -8,9 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./stylesheets/style.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+
+
 </head>
 <body>
     <header>
@@ -18,7 +21,7 @@
             <div class="container">
                 <div class="logo">
               <a href="/"> <img src="./img/logo.png"> </a>            
-                </div>s
+                </div>
                 <div class="menu">
                     <ul>
                         <li>Purchase</li>
@@ -42,16 +45,19 @@
         <p class="lead">
             <a class="btn btn-primary" href="Jumbo action link" role="button">Shop Now</a> <a class="btn btn-primary" href="Jumbo action link" role="button">Learn More</a>
         </p>
+
         </div>
+
     </div>
+    
 </div>
-    <hr>
+
     <div class="container">
         <div id="colors">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
                     <div class="image-box">
-                    <img id="cord-cover" src="https://dummyimage.com/500.gif" class="img-fluid" alt="" />
+                    <img id="cord-cover" src="./img/eggshell-white-inuse.jpg" class="img-fluid" alt="" />
                     </div>
                 </div>
             </div>
@@ -59,20 +65,29 @@
                 <div class="col-md-10 offset-md-1">
                     <ul>
 
-                        <li>
-                            <div class="hover one" data-src="http://loremflickr.com/g/501/501/test" alt=''> </div>
+                        <li class="color one">
+                            <div class="hover one" data-src="./img/eggshell-white-inuse.jpg" alt=''> </div><br>
+                            <span class="color-name">Eggshell White</span> 
                         </li>
-                        <li>
-                            <div class="hover two" data-src="http://loremflickr.com/g/497/501/test" alt='' ></div>
+                        <li class="color two">
+                            <div class="hover two" data-src="./img/mocha-inuse.jpg" alt='' ></div><br>
+                            <span class="color-name">Mocha</span> 
+
                         </li>
-                        <li>
-                            <div class="hover three" data-src="http://loremflickr.com/g/498/501/test" alt=''></div>
+                        <li class="color three">
+                            <div class="hover three" data-src="./img/heather-grey-inuse.jpg" alt=''></div><br>
+                            <span class="color-name">Heather Grey</span> 
+
                         </li>
-                        <li>
-                            <div class="hover four" data-src="http://loremflickr.com/g/499/501/test"></div>
+                        <li class="color four">
+                            <div class="hover four" data-src="./img/champagne-inuse.jpg"></div><br>
+                            <span class="color-name">Champagne</span> 
+
                         </li>
-                        <li>
-                            <div class="hover five" data-src="http://loremflickr.com/g/500/501/test" alt=''></div>
+                        <li class="color five">
+                            <div class="hover five" data-src="./img/black-inuse.jpg" alt=''></div><br>
+                            <span class="color-name">Black</span> 
+
                         </li>
 
                     </ul><br>
