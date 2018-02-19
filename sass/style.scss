@@ -96,10 +96,13 @@ hr {
 
 #hero {
 
+
     .jumbotron {
         background: url('../img/cordinate-hero.jpg') no-repeat right center;
         background-size: cover;
         min-height: 493px;
+
+            
 
         h1 {
             font-size: $h1;
@@ -317,4 +320,13 @@ footer {
             color:$turquoise;
         }
     }
+}
+
+@media(max-width:1000px) {
+
+    #hero{ 
+     .jumbotron {
+         background: white;
+     }
+ }
 }
