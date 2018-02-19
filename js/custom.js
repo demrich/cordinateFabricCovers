@@ -6,4 +6,9 @@ $('.hover').hover(function(){
     $('#cord-cover').attr('src', value).toggleClass('fade-in');
 });
 
+$('a.learn').click(function() {
+    $('html, body').animate({
+      scrollTop: $("#colors").offset().top
+    }, 1000)
+  })
 });

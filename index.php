@@ -43,7 +43,7 @@
             <li class="last">&bull; Charging Cables and more!</li>
         </ul>
         <p class="lead">
-            <a class="btn btn-primary" href="Jumbo action link" role="button">Shop Now</a> <a class="btn btn-primary" href="Jumbo action link" role="button">Learn More</a>
+            <a class="btn btn-primary" href="Jumbo action link" role="button">Shop Now</a> <a class="btn btn-primary learn" href="#colors" role="button">Learn More</a>
         </p>
 
         </div>
@@ -134,7 +134,7 @@
     </footer>
 
         <!-- Optional JavaScript -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
