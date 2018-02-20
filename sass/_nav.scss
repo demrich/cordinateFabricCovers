@@ -1,0 +1,90 @@
+@mixin transitionfix() {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0)
+}
+
+//Variables
+$h1: 72px;
+$turquoise: #6db3a3;
+
+//Extends
+.fade-in{
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+//Start Styling
+body {
+    letter-spacing: 1px;
+
+    .btn-primary:hover {
+        background: $turquoise;
+        color: white;
+    }
+
+    .btn-primary {
+        border-radius: 50px;
+        background-color: black;
+        padding:5px 20px;
+        color: white;
+        border: none;
+        font-size: 20px;
+    }
+
+    .btn-lrg {
+        @extend .btn-primary;
+        font-size: 1.5em;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+        padding:5px 20px;
+
+    }
+
+    a:not([href]):not([tabindex]) {
+        color: white;
+
+        &:hover {
+            color: white;
+        }
+    }
+    
+}
+
+
+nav {
+    height:150px;
+    background: black;
+    .logo {
+        display:block;
+        float: left;
+        color: white;
+        padding-top: 15px; 
+
+        img {
+            width: 150px;
+        }
+  
+    } 
+
+    .menu {
+        ul{
+        display: block;
+        font-size: 24px;
+        color: white;
+        list-style: none;
+        float: right;
+        padding-top: 65px; 
+
+        li {
+            display: block;
+            float: right;
+            padding-right: 20px;
+        }
+        }  
+    }
+}
+hr {
+        border-top: 10px double #000;
+}

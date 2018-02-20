@@ -12,6 +12,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6379196/7758572/css/fonts.css" />
 
 
 </head>
@@ -24,7 +25,8 @@
                 </div>
                 <div class="menu">
                     <ul>
-                        <li>Purchase</li>
+                    <li>Cord Covers</li>
+                  <li>Extension Cords</li>
                     </ul>
                 </div>
             </div>
@@ -33,7 +35,7 @@
 <div id="hero">
     <div class="jumbotron">
         <div class="container">
-        <h1>Fabric <br> Cord Cover</h1>
+        <h1>Fabric <br> Cord Covers</h1>
 
         <p class="lead">Hide and manage cables &hellip; anywhere!</p>
         <ul>
@@ -111,8 +113,7 @@
     <div class="container">
     <div class="col-md-8 offset-md-2">
     <p>
-        Et incididunt eu eiusmod reprehenderit veniam in dolor in. Consequat tempor fugiat excepteur tempor mollit irure mollit consectetur exercitation deserunt ea magna duis velit. Mollit aliquip eu reprehenderit Lorem elit.
-    </p>
+    Give the electrical cords in your home an elegant restyling with some new Fabric Cord Cover from Cordinate. The decorative fabric conceals chains from overhead light fixtures, as well as visible cords from lamps or other connected devices around your home. The attractive fabric is made from flame-retardant nylon, gathering easily and giving your indoor space an unexpected touch of color and softness.    </p>
     <a class="btn btn-lrg">Shop Now</a>
     </div>
     </div>
